@@ -4,7 +4,7 @@
 
 #### Process Flow Diagram:
 
-<img src="https://github.com/aarushiksk/HTML-resume/blob/main/Process%20flow.png">
+<img src="https://github.com/aarushiksk/HTML-resume/blob/main/Process%20flow.png"](https://github.com/aarushiksk/HTML-resume/blob/main/diagram-export-9-15-2024-8_24_06-PM.png>
 
 
 #### Approach:
