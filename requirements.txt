@@ -1,0 +1,6 @@
+PyPDF2
+google-generativeai
+python-dotenv
+groq
+flask
+gunicorn==19.7.1

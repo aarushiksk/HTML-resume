@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Chatbot - Upload PDF</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>🧠 AI Chatbot - Upload PDF</h1>
+
+        <form action="/generate" method="POST" enctype="multipart/form-data">
+            <!-- API Key Input -->
+            <label for="api_key">Enter your Groq API Key</label>
+            <input type="password" name="api_key" id="api_key" placeholder="Enter your OpenAI API Key" required>
+
+            <!-- PDF Upload Input -->
+            <label for="pdf">Upload PDF File</label>
+            <input type="file" name="pdf" id="pdf" accept="application/pdf" required>
+
+            <label for="name">Enter Name</label>
+            <input type="text" name="name_text" id="name" placeholder="Enter your name" required>
+
+            <!-- Submit Button -->
+            <button type="submit">Upload PDF</button>
+        </form>
+
+        <!-- Display error message if exists -->
+        {% if error %}
+            <p class="error">{{ error }}</p>
+        {% endif %}
+    </div>
+</body>
+</html>

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Chatbot - Chat Interface</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>🧠 AI Chatbot - Chat Interface</h1>
+
+        <form action="/" method="POST">
+            <label for="ai_model">Type your LLM i.e Gemini or Groq</label>
+            <input type="text" name="ai_model" id="ai_model" placeholder="Enter" required>
+            <button type="submit">Submit</button>
+        </form>
+
+        <!-- Display error message if exists -->
+        {% if error %}
+            <p class="error">{{ error }}</p>
+        {% endif %}
+    </div>
+</body>
+</html>
