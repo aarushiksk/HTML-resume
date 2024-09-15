@@ -1,10 +1,10 @@
-### 🤖Flask based Resume HTML generator
+## 🤖Flask based Resume HTML generator
 
-###### ⚡This app uses Gemini model-1.5-flash and Groq, llama-3 for to generate HTML page content out LinkedIn generated PDF.
+## ⚡This app uses Gemini model-1.5-flash and Groq, llama-3 for to generate HTML page content out LinkedIn generated PDF.
 
 #### Process Flow Diagram:
 
-<img src="https://github.com/aarushiksk/HTML-resume/blob/main/Process%20flow.png"](https://github.com/aarushiksk/HTML-resume/blob/main/diagram-export-9-15-2024-8_24_06-PM.png>
+<img src="https://github.com/aarushiksk/HTML-resume/blob/main/Process%20flow.png"](https://github.com/aarushiksk/HTML-resume/blob/main/diagram-export-9-15-2024-8_24_06-PM.png">
 
 
 #### Approach:
